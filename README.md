@@ -1,4 +1,4 @@
-# Адаптивный интернет-магазин пиццерии на React.js и TypeScript
+# Интернет-магазин пиццерии на React.js и TypeScript
  
 ### Ссылка на сайт: <a href="https://soloveva98.github.io/pizza-react/">Pizza</a>
 
