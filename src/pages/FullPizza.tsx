@@ -66,7 +66,7 @@ const FullPizza: React.FC = () => {
 	return (
 		<div className="content">
 			<div className="pizza">
-				<img className="pizza__img" src={pizza.imageUrl} />
+				<img className="pizza__img" src={`img/pizzas/${id}.avif`} />
 
 				<div>
 					<h2>{pizza.title}</h2>
