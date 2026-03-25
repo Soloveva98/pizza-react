@@ -32,7 +32,7 @@ export const CartItemBlock: React.FC<CartItemProps> = ({ id, title, type, size, 
 	return (
 		<div className="cart__item">
 			<div className="cart__item-img">
-				<img className="pizza-block__image" src={imageUrl} alt="Pizza" />
+				<img className="pizza-block__image" src={`img/pizzas/${id}.avif`} alt="Pizza" />
 			</div>
 			<div className="cart__item-info">
 				<h3>{title}</h3>
