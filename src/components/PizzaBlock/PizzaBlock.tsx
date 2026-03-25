@@ -45,7 +45,7 @@ export const PizzaBlock: React.FC<PizzaBlockProps> = ({ id, imageUrl, title, pri
 			<div className="pizza-block">
 				<Link key={id} to={`/pizza/${id}`}>
 					<img className="pizza-block__image"
-						src={imageUrl}
+						src={`img/pizzas/${id}.avif`}
 						alt="Pizza" />
 				</Link>
 				<h4 className="pizza-block__title">{title}</h4>
